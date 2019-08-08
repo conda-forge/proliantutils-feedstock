@@ -1,5 +1,5 @@
 {% set name = "proliantutils" %}
-{% set version = "2.8.4" %}
+{% set version = "2.9.0" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0a199b36b2daf81c70421c9a6c697c49c3dbcfe1e56bd270d8e6c1ef04456f40
+  sha256: ba5425fd12203e9446d14812242c65a8417dd7685c1ee7a2f78a7ed521481e3d
 
 build:
   number: 0
