@@ -1,34 +1,33 @@
-{% set name = "proliantutils" %}
-{% set version = "2.8.4" %}
+{% set version = "2.9.2" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: proliantutils
+  version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0a199b36b2daf81c70421c9a6c697c49c3dbcfe1e56bd270d8e6c1ef04456f40
+  url: https://pypi.io/packages/source/p/proliantutils/proliantutils-{{ version }}.tar.gz
+  sha256: b73240b3e50c3f80bf470c11504d7283622a171a440d116c5bc3e6f21c30134f
 
 build:
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv "
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
   host:
-    - pbr >=2.0.0
-    - pip
     - python
+    - pip
+    - pbr >=2.0.0
   run:
-    - jsonschema !=2.5.0,<3.0.0,>=2.0.0
+    - python
+    - pbr >=2.0.0
+    - six >=1.9.0
     - oslo.concurrency >=3.8.0
     - oslo.serialization >=1.10.0
     - oslo.utils >=3.20.0
-    - pbr >=2.0.0
-    - pysnmp >=4.2.3,<5.0.0
-    - python
+    - jsonschema >=2.6.0
     - requests !=2.12.2,!=2.13.0,>=2.10.0
     - retrying !=1.3.0,>=1.2.3
-    - six >=1.9.0
+    - pysnmp >=4.2.3,<5.0.0
     - sushy >=1.8.0
 
 test:
@@ -40,10 +39,10 @@ test:
 
 about:
   home: https://github.com/openstack/proliantutils
-  license: Apache Software
+  license: Apache-2.0
   license_family: APACHE
   license_file: LICENSE
-  summary: Proliantutils is a set of utility libraries for interfacing and managing various components (like iLO, HPSSA) for HP Proliant Servers. This library is used by iLO drivers in Ironic for managing Proliant Servers (though the library can be used by anyone who wants to manage HP Proliant servers).
+  summary: "Proliantutils is a set of utility libraries for interfacing and managing various components (like iLO, HPSSA) for HP Proliant Servers. This library is used by iLO drivers in Ironic for managing Proliant Servers (though the library can be used by anyone who wants to manage HP Proliant servers)"
 
 extra:
   recipe-maintainers:

@@ -3,11 +3,11 @@ About proliantutils
 
 Home: https://github.com/openstack/proliantutils
 
-Package license: Apache Software
+Package license: Apache-2.0
 
 Feedstock license: BSD 3-Clause
 
-Summary: Proliantutils is a set of utility libraries for interfacing and managing various components (like iLO, HPSSA) for HP Proliant Servers. This library is used by iLO drivers in Ironic for managing Proliant Servers (though the library can be used by anyone who wants to manage HP Proliant servers).
+Summary: Proliantutils is a set of utility libraries for interfacing and managing various components (like iLO, HPSSA) for HP Proliant Servers. This library is used by iLO drivers in Ironic for managing Proliant Servers (though the library can be used by anyone who wants to manage HP Proliant servers)
 
 
 
@@ -15,14 +15,7 @@ Current build status
 ====================
 
 
-<table><tr>
-    <td>Appveyor</td>
-    <td>
-      <a href="https://ci.appveyor.com/project/conda-forge/proliantutils-feedstock/branch/master">
-        <img alt="windows" src="https://img.shields.io/appveyor/ci/conda-forge/proliantutils-feedstock/master.svg?label=Windows">
-      </a>
-    </td>
-  </tr>
+<table>
     
   <tr>
     <td>Azure</td>
@@ -57,6 +50,13 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>linux_python3.8</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=7029&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/proliantutils-feedstock?branchName=master&jobName=linux&configuration=linux_python3.8" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>osx_python2.7</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=7029&branchName=master">
@@ -75,6 +75,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=7029&branchName=master">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/proliantutils-feedstock?branchName=master&jobName=osx&configuration=osx_python3.7" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_python3.8</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=7029&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/proliantutils-feedstock?branchName=master&jobName=osx&configuration=osx_python3.8" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -98,13 +105,25 @@ Current build status
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/proliantutils-feedstock?branchName=master&jobName=win&configuration=win_python3.7" alt="variant">
                 </a>
               </td>
+            </tr><tr>
+              <td>win_python3.8</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=7029&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/proliantutils-feedstock?branchName=master&jobName=win&configuration=win_python3.8" alt="variant">
+                </a>
+              </td>
             </tr>
           </tbody>
         </table>
       </details>
     </td>
   </tr>
-![ppc64le disabled](https://img.shields.io/badge/ppc64le-disabled-lightgrey.svg)
+  <tr>
+    <td>Linux_ppc64le</td>
+    <td>
+      <img src="https://img.shields.io/badge/ppc64le-disabled-lightgrey.svg" alt="ppc64le disabled">
+    </td>
+  </tr>
 </table>
 
 Current release info
