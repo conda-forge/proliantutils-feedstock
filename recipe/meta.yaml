@@ -1,4 +1,4 @@
-{% set version = "2.9.2" %}
+{% set version = "2.9.3" %}
 
 package:
   name: proliantutils
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/p/proliantutils/proliantutils-{{ version }}.tar.gz
-  sha256: b73240b3e50c3f80bf470c11504d7283622a171a440d116c5bc3e6f21c30134f
+  sha256: 105c1d429d7adfa324829eb4dc4f0bdd663efa3df92f7ab917d7c260fb3c66e3
 
 build:
   number: 0
