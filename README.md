@@ -5,7 +5,7 @@ Home: https://github.com/openstack/proliantutils
 
 Package license: Apache-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Proliantutils is a set of utility libraries for interfacing and managing various components (like iLO, HPSSA) for HP Proliant Servers. This library is used by iLO drivers in Ironic for managing Proliant Servers (though the library can be used by anyone who wants to manage HP Proliant servers)
 
@@ -29,10 +29,10 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_python2.7.____cpython</td>
+              <td>linux_python3.6.____73_pypy</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=7029&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/proliantutils-feedstock?branchName=master&jobName=linux&configuration=linux_python2.7.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/proliantutils-feedstock?branchName=master&jobName=linux&configuration=linux_python3.6.____73_pypy" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -57,10 +57,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_python2.7.____cpython</td>
+              <td>osx_python3.6.____73_pypy</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=7029&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/proliantutils-feedstock?branchName=master&jobName=osx&configuration=osx_python2.7.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/proliantutils-feedstock?branchName=master&jobName=osx&configuration=osx_python3.6.____73_pypy" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -82,13 +82,6 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=7029&branchName=master">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/proliantutils-feedstock?branchName=master&jobName=osx&configuration=osx_python3.8.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_python2.7.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=7029&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/proliantutils-feedstock?branchName=master&jobName=win&configuration=win_python2.7.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
