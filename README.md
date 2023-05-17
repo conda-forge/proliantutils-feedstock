@@ -1,11 +1,11 @@
-About proliantutils
-===================
+About proliantutils-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/proliantutils-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/openstack/proliantutils
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/proliantutils-feedstock/blob/main/LICENSE.txt)
 
 Summary: Proliantutils is a set of utility libraries for interfacing and managing various components (like iLO, HPSSA) for HP Proliant Servers. This library is used by iLO drivers in Ironic for managing Proliant Servers (though the library can be used by anyone who wants to manage HP Proliant servers)
 
